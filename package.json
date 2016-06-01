@@ -1,0 +1,32 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "Last movies and search",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilianodiaz/movies.git"
+  },
+  "keywords": [
+    "movies",
+    "rest",
+    "express",
+    "node.js",
+    "course"
+  ],
+  "author": "Emiliano Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilianodiaz/movies/issues"
+  },
+  "homepage": "https://github.com/emilianodiaz/movies#readme",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.0"
+  }
+}

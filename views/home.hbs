@@ -1,0 +1,17 @@
+<div>
+    <form method="get" action="/">
+        <input type="text" name="key" placeholder="Movie a buscar?" />
+        <input type="submit" value="Buscar" />
+    </form>
+</div>
+
+<div>
+    <ul>
+    {{#each movies}}
+        <li>
+            <h2>{{this.Title}}</h2>
+            <img src="{{this.Poster}}" />
+        </li>
+    {{/each}}
+    </ul>
+</div>
